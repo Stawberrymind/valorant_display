@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Valorant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="mainpage">
+    <div id="home-page">
+<center>
+    
+    <h1 class="text">Valorant</h1>
+    
+    <section id="menu-sec">
+        <ul class="menu">
+            <li class="links" onclick="goback()">Home</li>
+            <div class="dropdown">
+                <li class="dropli">Agents<i class="	glyphicon glyphicon-chevron-down downarrow"></i></li><br>
+                <div class="dropdown-content">
+                    <!-- sub sub menu for sentinel-->
+                    <div class="dropdown-sentinel">
+                        <h3 class="dropli-sentinel">Sentinel<i class="glyphicon glyphicon-chevron-down downarrow"></i></h3>
+                        <div class="dropdown-content-sentinel">
+                            <h3 onclick="gotosentinel()">Sage</h3>
+                            <h3 onclick="gotosentinel()">Cypher</h3>
+                            <h3 onclick="gotosentinel()">Killjoy</h3>
+                            <h3 onclick="gotosentinel()">Chamber</h3>
+                            <h3 onclick="gotosentinel()">Deadlock</h3>
+                            <h3 onclick="gotosentinel()">Vyse</h3>
+                            <h3 onclick="gotosentinel()">Veto</h3>
+                        </div>
+                    </div>
+                    <br><br>
+                    <!--sub sub menu for duelists-->
+                    <div class="dropdown-duelists">
+                        <h3 class="dropli-duelists">Duelists<i class="	glyphicon glyphicon-chevron-down downarrow"></i></h3>
+                        <div class="dropdown-content-duelists">
+                            <h3 onclick="gotoduelist()">Jett</h3>
+                            <h3 onclick="gotoduelist()">Phoenix</h3>
+                            <h3 onclick="gotoduelist()">Neon</h3>
+                            <h3 onclick="gotoduelist()">Raze</h3>
+                            <h3 onclick="gotoduelist()">Reyna</h3>
+                            <h3 onclick="gotoduelist()">Yoru</h3>
+                            <h3 onclick="gotoduelist()">Iso</h3>
+                            <h3 onclick="gotoduelist()">Waylay</h3>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="dropdown-duelists">
+                        <h3 class="dropli-duelists">Initiators<i class="	glyphicon glyphicon-chevron-down downarrow"></i></h3>
+                        <div class="dropdown-content-duelists">
+                            <h3 onclick="gotoinitiators()">Sova</h3>
+                            <h3 onclick="gotoinitiators()">Breach</h3>
+                            <h3 onclick="gotoinitiators()">Skye</h3>
+                            <h3 onclick="gotoinitiators()">KAY/O</h3>
+                            <h3 onclick="gotoinitiators()">Fade</h3>
+                            <h3 onclick="gotoinitiators()">Gekko</h3>
+                            <h3 onclick="gotoinitiators()">Tejo</h3>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="dropdown-duelists">
+                        <h3 class="dropli-duelists">Controllers<i class="	glyphicon glyphicon-chevron-down downarrow"></i></h3>
+                        <div class="dropdown-content-duelists">
+                            <h3 onclick="gotocontrollers()">Brimstone</h3>
+                            <h3 onclick="gotocontrollers()">Viper</h3>
+                            <h3 onclick="gotocontrollers()">Omen</h3>
+                            <h3 onclick="gotocontrollers()">Astra</h3>
+                            <h3 onclick="gotocontrollers()">Harbour</h3>
+                            <h3 onclick="gotocontrollers()">Clove</h3>
+                            <h3 onclick="gotocontrollers()">Miks</h3>
+                        </div>
+                    </div>
+                </div>       
+                   
+            </div>
+            <div class="dropdown">
+                <li class="dropli">Maps<i class="glyphicon glyphicon-chevron-down downarrow"></i></li><br>
+                <div class="dropdown-content">
+                    <div class="dropdown-content-sentinals">
+                        <h3>Coming soon™</h3>
+                    </div>
+                </div>
+            </div>  
+            <div class="dropdown">
+                <li class="dropli">Mechanics<i class="glyphicon glyphicon-chevron-down downarrow"></i></li><br>
+                <div class="dropdown-content">
+                    <div class="dropdown-content-sentinals">
+                        <h3>Coming soon™</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <li class="dropli">Competitive<i class="glyphicon glyphicon-chevron-down downarrow"></i></li><br>
+                <div class="dropdown-content">
+                    <div class="dropdown-content-sentinals">
+                        <h3>Coming soon™</h3>
+                    </div>
+                </div>
+            </div>    
+            
+        </ul>
+    </section>
+
+    <!--moving cool stars background thats not bad and resets every 4 seconds-->
+
+
+</center>
+    </div>
+
+    <div id="sentinel-page" hidden>
+        <!--main page-->
+        <br><br>
+        <h2 class="sentinel-text-mainpage" onclick="goback()">Go Back To Home Page</h2>
+        <!--sage section-->
+        <section class="section">
+            <center><h3 class="name">SAGE</h3></center>
+            <span><img class="testsubject imageforsentinel" alt="Oh!Oh!The picture is not available (error:404 not found)" src="Sage.png">
+            <h3 class="goodtext">The stronghold of China, Sage creates 
+                safety for herself and her team wherever she goes. 
+                Able to revive fallen friends and stave off aggressive pushes,
+                she provides a calm center to a hellish fight.</h3></span>
+            
+        </section>
+        <!--cypher section-->
+        <section class="section">
+            <center><h3 class="name">CYPHER</h3></center>
+            <!--cypher section-->
+            <span><img alt="Oh!Oh!The picture is not available (error:404 not found)" src="Cypher.png" class="imageforsentinel">
+            <h3 class="goodtext">The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy's every move. No secret is safe. 
+                No maneuver goes unseen. Cypher is always watching.</h3></span>
+                
+        </section>
+        <!--killjoy section-->
+        <section class="section">
+            <center><h3 class="name">KILLJOY</h3></center>
+            <span><img alt="no img " src="Killjoy.png" class="imageforsentinel"></span>
+            <h3 class="goodtext">The genius of Germany. Killjoy secures the battlefield with ease using her arsenal of inventions. If the damage from her gear doesn't stop her enemies, her robots' debuff will help make short work of them.</h3>
+        </section>
+        <!--chamber section-->
+        <section class="section">
+            <center><h3 class="name">CHAMBER</h3></center>
+            <span><img alt="noimg" src="Chamber.jpg" class="imageforsentinel"></span>
+            <h3 class="goodtext">Well dressed and well armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.</h3>
+        </section>
+        <!--deadlock section-->
+        <section class="section">
+            <center><h3 class="name">DEADLOCK</h3></center>
+            <span><img alt="Oh!Oh!The picture is not available (error:404 not found)" src="Deadlock.png" class="imageforsentinel"></span>
+            <h3 class="goodtext">Norway's Deadlock holds her ground with advanced nanowire technology. Her traps and barriers stop enemy advances, catching opponents who try to break through her watch.</h3>
+        </section>
+        <!--vyse section-->
+        <section class="section">
+            <center><h3 class="name">VYSE</h3></center>
+            <span><img alt="Oh!Oh!The picture is not available (error:404 not found)" src="Vyse.png" class="imageforsentinel"></span>
+            <h3 class="goodtext">Vyse shapes liquid metal into a battlefield of traps. She separates enemies from their teammates, blinds those who approach, and disables their weapons when they need them most.</h3>
+        </section>
+        <!--veto section-->
+        <section class="section">
+            <center><h3 class="name">VETO</h3></center>
+            <span><img alt="Oh!Oh!The picture is not available (error:404 not found)" src="Veto.png" class="imageforsentinel"></span>
+            <h3 class="goodtext">Senegal's Veto uses his powerful mutation to shut down enemy abilities and equipment. He strips away his opponents' advantages and forces them to rely on their aim.</h3>
+        </section>
+    </div>
+
+    <div id="duelists-page" hidden>
+        <!--main page-->
+        <br><br>
+        <h2 class="sentinel-text-mainpage" onclick="goback()">Go Back To Home Page</h2>
+        <!--sage section-->
+        <section class="section">
+            <center><h3 class="name">JETT</h3></center>
+            <span><img class="testsubject imageforsentinel" alt="Oh!Oh!The picture is not available (error:404 not found)" src="Jett.png">
+            <h3 class="goodtext">Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.</h3></span>
+            
+        </section>
+        <!--cypher section-->
+        <section class="section">
+            <center><h3 class="name">PHOENIX</h3></center>
+            <!--cypher section-->
+            <span><img alt="Oh!Oh!The picture is not available (error:404 not found)" src="Phoenix.png" class="imageforsentinel">
+            <h3 class="goodtext">Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he'll rush into a fight on his own terms.</h3></span>
+                
+        </section>
+        <!--killjoy section-->
+        <section class="section">
+            <center><h3 class="name">NEON</h3></center>
+            <span><img alt="no img " src="Neon.png" class="imageforsentinel"></span>
+            <h3 class="goodtext">Filipino Agent Neon surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard, then strikes them down quicker than lightning.</h3>
+        </section>
+        <section class="section">
+            <center><h3 class="name">REYNA</h3></center>
+            <span><img alt="noimg" src="Reyna.jpg" class="imageforsentinel"></span>
+            <h3 class="goodtext">Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.  </h3>
+        </section>
+        <section class="section">
+            <center><h3 class="name">YORU</h3></center>
+            <span><img alt="noimg" src="Yoru.png" class="imageforsentinel"></span>
+            <h3 class="goodtext">Japanese native, Yoru, rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look.  </h3>
+        </section>
+        <!--raze section-->
+        <section class="section">
+            <center><h3 class="name">RAZE</h3></center>
+            <span><img alt="Oh!Oh!The picture is not available (error:404 not found)" src="Raze.png" class="imageforsentinel"></span>
+            <h3 class="goodtext">Brazil's Raze brings explosive firepower to every fight. With grenades, a hunting robot, and her rocket launcher, she drives enemies out of cover and blasts open a path for her team.</h3>
+        </section>
+        <!--iso section-->
+        <section class="section">
+            <center><h3 class="name">ISO</h3></center>
+            <span><img alt="Oh!Oh!The picture is not available (error:404 not found)" src="Iso.png" class="imageforsentinel"></span>
+            <h3 class="goodtext">Iso, a hired gun from China, turns energy into protection as he pushes forward. His focus and shielding help him challenge opponents and take control of one-on-one fights.</h3>
+        </section>
+        <!--waylay section-->
+        <section class="section">
+            <center><h3 class="name">WAYLAY</h3></center>
+            <span><img alt="Oh!Oh!The picture is not available (error:404 not found)" src="Waylay.png" class="imageforsentinel"></span>
+            <h3 class="goodtext">Thailand's Waylay becomes light to race into enemy territory. She slows opponents with prismatic energy, attacks from unexpected angles, and returns to safety before they can respond.</h3>
+        </section>
+    </div>
+
+    <div id="initiators-page" hidden>
+        <!--main page-->
+        <br><br>
+        <h2 class="sentinel-text-mainpage" onclick="goback()">Go Back To Home Page</h2>
+        <!--sage section-->
+        <section class="section">
+            <center><h3 class="name">Sova</h3></center>
+            <span><img class="testsubject imageforsentinel" alt="Oh!Oh!The picture is not available (error:404 not found)" src="Sova.jpg">
+            <h3 class="goodtext">Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.</h3></span>
+            
+        </section>
+        <!--cypher section-->
+        <section class="section">
+            <center><h3 class="name">Kayo</h3></center>
+            <!--cypher section-->
+            <span><img alt="Oh!Oh!The picture is not available (error:404 not found)" src="Kayo.jpg" class="imageforsentinel">
+            <h3 class="goodtext">KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to suppress enemy abilities cripples his opponents' capacity to fight back, securing him and his allies the ultimate edge.</h3></span>
+                
+        </section>
+        <!--killjoy section-->
+        <section class="section">
+            <center><h3 class="name">Fade</h3></center>
+            <span><img alt="no img " src="Fade.jpg" class="imageforsentinel"></span>
+            <h3 class="goodtext">Turkish bounty hunter, Fade, unleashes the power of raw nightmares to seize enemy secrets. Attuned with terror itself, she hunts targets and reveals their deepest fears—before crushing them in the dark.</h3>
+        </section>
+        <!--chamber section-->
+        <section class="section">
+            <center><h3 class="name">Breach</h3></center>
+            <span><img alt="noimg" src="Chamber.jpg" class="imageforsentinel"></span>
+            <h3 class="goodtext">Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.</h3>
+        </section>
+        <!--skye section-->
+        <section class="section">
+            <center><h3 class="name">Skye</h3></center>
+            <span><img alt="Oh!Oh!The picture is not available (error:404 not found)" src="Skye.png" class="imageforsentinel"></span>
+            <h3 class="goodtext">Australia's Skye guides her animal creations into danger to help her team advance. She scouts ahead, disrupts opponents, and heals nearby allies so they can keep fighting together.</h3>
+        </section>
+        <!--gekko section-->
+        <section class="section">
+            <center><h3 class="name">Gekko</h3></center>
+            <span><img alt="Oh!Oh!The picture is not available (error:404 not found)" src="Gekko.png" class="imageforsentinel"></span>
+            <h3 class="goodtext">Gekko comes from Los Angeles with a lively crew of creatures. They blind, stun, and chase opponents, then return to him so he can gather them up for another attack.</h3>
+        </section>
+        <!--tejo section-->
+        <section class="section">
+            <center><h3 class="name">Tejo</h3></center>
+            <span><img alt="Oh!Oh!The picture is not available (error:404 not found)" src="Tejo.png" class="imageforsentinel"></span>
+            <h3 class="goodtext">Colombian intelligence veteran Tejo uses guided explosives to force enemies out of position. His drone uncovers threats while carefully placed strikes clear the way for his teammates.</h3>
+        </section>
+    </div>
+
+    <div id="controllers-page" hidden>
+        <!--main page-->
+        <br><br>
+        <h2 class="sentinel-text-mainpage" onclick="goback()">Go Back To Home Page</h2>
+        <!--sage section-->
+        <section class="section">
+            <center><h3 class="name">Viper</h3></center>
+            <span><img class="testsubject imageforsentinel" alt="Oh!Oh!The picture is not available (error:404 not found)" src="Viper.jpg">
+            <h3 class="goodtext">The American chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy's vision. If the toxins don't kill her prey, her mind games surely will.</h3></span>
+            
+        </section>
+        <!--cypher section-->
+        <section class="section">
+            <center><h3 class="name">Omen</h3></center>
+            <!--cypher section-->
+            <span><img alt="Oh!Oh!The picture is not available (error:404 not found)" src="Omen.png" class="imageforsentinel">
+            <h3 class="goodtext">A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.</h3></span>
+                
+        </section>
+        <!--killjoy section-->
+        <section class="section">
+            <center><h3 class="name">Harbour</h3></center>
+            <span><img alt="no img " src="Harbour.jpg" class="imageforsentinel"></span>
+            <h3 class="goodtext">Hailing from India’s coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies and pummel those that oppose him.</h3>
+        </section>
+        <section class="section">
+            <center><h3 class="name">Brimstone</h3></center>
+            <span><img alt="noimg" src="Brimstone.jpg" class="imageforsentinel"></span>
+            <h3 class="goodtext">Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.  </h3>
+        </section>
+        <section class="section">
+            <center><h3 class="name">Astra</h3></center>
+            <span><img alt="noimg" src="Astra.jpg" class="imageforsentinel"></span>
+            <h3 class="goodtext">Japanese native, Yoru, rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look.  </h3>
+        </section>
+        <!--clove section-->
+        <section class="section">
+            <center><h3 class="name">Clove</h3></center>
+            <span><img alt="Oh!Oh!The picture is not available (error:404 not found)" src="Clove.png" class="imageforsentinel"></span>
+            <h3 class="goodtext">Scottish immortal Clove clouds the battlefield and weakens opponents with their unusual powers. Even after falling in combat, they can place smokes and find a way back into the fight.</h3>
+        </section>
+        <!--miks section-->
+        <section class="section">
+            <center><h3 class="name">Miks</h3></center>
+            <span><img alt="Oh!Oh!The picture is not available (error:404 not found)" src="Miks.png" class="imageforsentinel"></span>
+            <h3 class="goodtext">Croatia's Miks channels sound into powers that bring his team together. He blocks sightlines, supports allies, and sends sonic pulses across the battlefield to shape the pace of a fight.</h3>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

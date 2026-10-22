@@ -1,0 +1,354 @@
+/*home page defaults*/
+body.mainpage{
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.mainpage *, .mainpage *:before, .mainpage *:after{
+    box-sizing: border-box;
+}
+
+.mainpage h1, .mainpage h3{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.mainpage h1{
+    font-size: 36px;
+}
+
+.mainpage ul{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.mainpage .dropdown{
+    position: relative;
+}
+
+.glyphicon{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    width: 23px;
+    text-align: center;
+    vertical-align: 2px;
+}
+
+.glyphicon-chevron-down:before{
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    transform: translateY(-2px) rotate(45deg);
+}
+
+[hidden]{
+    display: none;
+}
+
+.text{
+    width: 400px;
+    font-variant: small-caps;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    border: 3.5px solid white;
+    color: white;
+    
+}
+body{
+    background-image: url("stars.gif");
+    
+
+}
+/*menu link properties*/
+
+.links{
+    width: 150px;
+    font-variant: small-caps;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    border: 3.5px solid white;
+    color: white;
+    text-align: center;
+    float: left;
+    margin-left: 50px;
+    /* e*/
+}
+
+.menu{
+    list-style: none;
+    text-align: center;
+    
+}
+
+#menu-sec{
+    width: 1160px;
+
+    height: 40px;
+    text-align: center;
+}
+
+.downarrow{
+    padding: 5px;
+    font-size: 11px;
+}
+
+
+/* for all the main menus*/
+.dropdown{
+    overflow: hidden;
+    float: left;
+}
+
+.dropli{
+    width: 150px;
+    font-variant: small-caps;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    border: 3.5px solid white;
+    color: white;
+    text-align: center;
+    float: right;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.dropli-maps{
+    width: 150px;
+    font-variant: small-caps;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    border: 3.5px solid white;
+    color: white;
+    text-align: center;
+    float: right;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: inline-block;
+}
+
+.dropdown-content h3{
+    float: none;
+    text-align: left;
+    width: 120px;
+    font-variant: small-caps;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    color: rgba(0, 255, 187, 0.756);
+    padding-left: 15px;
+    font-size: 15px;
+  
+}
+.dropli-maps{
+    display: inline-block;
+}
+
+.dropli:hover{
+    color: red;
+    border-color:red;
+}
+
+/*for all sentinel submenu*/
+
+.dropdown-sentinel{
+    overflow: hidden;
+    float: left;
+}
+
+.dropli-sentinel{
+    width: 130px;
+    font-variant: small-caps;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    
+    color: white;
+    text-align: center;
+    float: left;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.dropdown-content-sentinel{
+    display: none;
+}
+
+.dropdown-sentinel:hover .dropdown-content-sentinel{
+    display: inline-block;
+}
+
+.dropdown-content-sentinel h3{
+    float: none;
+    text-align: left;
+    width: 120px;
+    font-variant: small-caps;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    color:aliceblue;
+    padding-left: 15px;
+    font-size: 15px;
+  
+}
+
+.dropli-sentinel:hover{
+    color: rgba(255, 187, 0, 0.782);
+    border-color: rgba(255, 187, 0, 0.782);
+}
+
+/*all for the duelists submenu*/
+
+.dropdown-duelists{
+    overflow: hidden;
+    float: left;
+}
+
+.dropli-duelists{
+    width: 130px;
+    font-variant: small-caps;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    
+    color: white;
+    text-align: center;
+    float: left;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.dropdown-content-duelists{
+    display: none;
+}
+
+.dropdown-duelists:hover .dropdown-content-duelists{
+    display: inline-block;
+    ;
+}
+
+.dropdown-content-duelists h3{
+    float: none;
+    text-align: left;
+    width: 120px;
+    font-variant: small-caps;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    color:aliceblue;
+    padding-left: 15px;
+    font-size: 15px;
+  
+}
+
+.dropli-duelists:hover{
+    color: rgba(255, 187, 0, 0.782);
+    border-color: rgba(255, 187, 0, 0.782);
+}
+
+
+
+
+
+
+
+
+/*sentinel webpage*/
+.name{
+    width: 320px;
+    font-variant: small-caps;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    border: 5px solid rgba(245, 179, 235, 0.799);
+    color: rgba(245, 179, 235, 0.799);
+    text-align: center;
+    font-weight: 500px;
+    margin-left: 50px;
+    font-size: 55px;
+}
+
+.sentinel-text{
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    color: red;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sentinel-text-mainpage{
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    color: wheat;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+}
+
+.imageforsentinel{
+    width: 600px;
+    height: 350px;
+
+}
+.testsubject{
+    animation-name: hello;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 12px ;
+    border-style: solid;
+}
+
+
+
+.goodtext{
+    margin-right: 200px;
+    float: right;
+    padding-left: 20px;
+    margin-top: 151px;
+    width: 500px;
+    z-index: 999;
+    word-spacing: 5px;
+    text-align: center;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    transition: transform 2s;
+}
+
+.sections{
+    height: 638px;
+}
+
+.name:hover{
+    color:rgba(255, 192, 228, 0.811);
+    border-color: brown;
+    text-decoration: double;
+    
+    cursor: crosshair;
+    
+    transform: scale(1.256789);
+}
+html{
+    scroll-behavior: smooth;
+}
+.name{
+    transition: transform 2s;
+}
+.goodtext:hover{
+    transform: scale(1.1);
+}
